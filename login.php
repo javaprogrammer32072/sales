@@ -1,6 +1,7 @@
 <?php
 
 require "db.config.php";
+session_start();
 if(isset($_POST['submit']))
 {
   $email = $_POST['email'];
@@ -14,8 +15,7 @@ if(isset($_POST['submit']))
       {
         $_SESSION['user'] = $row;
       }
-
-      echo "<script>location.href='index.php'</script>";
+      header("location:index.php");
   }
   else
   {

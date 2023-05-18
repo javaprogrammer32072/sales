@@ -1,6 +1,7 @@
-<?php include "header.php";
+<?php 
 include "db.config.php";
 include "check.login.php";
+include "header.php";
 ?>
 <!--== BODY INNER CONTAINER ==-->
 <div class="sb2-2">

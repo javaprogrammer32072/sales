@@ -82,7 +82,7 @@
                     <li><a href="#" class="waves-effect"><i class="fa fa-undo" aria-hidden="true"></i> Backup Data</a>
                     </li>
                     <li class="divider"></li>
-                    <li><a href="#" class="ho-dr-con-last waves-effect"><i class="fa fa-sign-in" aria-hidden="true"></i> Logout</a>
+                    <li><a href="logout.php" class="ho-dr-con-last waves-effect"><i class="fa fa-sign-in" aria-hidden="true"></i> Logout</a>
                     </li>
                 </ul>
             </div>
@@ -108,6 +108,8 @@
                 <div class="sb2-13">
                     <ul class="collapsible" data-collapsible="accordion">
                         <li><a href="index-2.html" class="menu-active"><i class="fa fa-bar-chart" aria-hidden="true"></i> Dashboard</a>
+                        </li>
+                        <li><a href="category.php" target="_blank"><i class="fa fa-sign-in" aria-hidden="true"></i> Category</a>
                         </li>
                         <li><a href="javascript:void(0)" class="collapsible-header"><i class="fa fa-list-ul" aria-hidden="true"></i> Listing</a>
                             <div class="collapsible-body left-sub-menu">
